@@ -21,7 +21,12 @@ function HomepageContainer() {
                     >
                         <div style={{ height: 775 }}>
                             <Navigation />
-                            <div className="searchBox"></div>
+                            <div className="imageBox">
+                                <div><img src="./images/profile.jpg" class="myImg" /></div>
+                                <h1>Shruti Gaonkar</h1>
+                                <h2>Full Stack Web Developer</h2>
+                                <p className="intro">I am a Los Angeles based Fullstack Web Developer.</p>
+                            </div>
                         </div>
                     </Parallax>
                 </div >
